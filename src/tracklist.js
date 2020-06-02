@@ -33,7 +33,7 @@ const TrackList = () => {
 				<ul className='tracklist'>
 					{trackList.map((track, index) => (
 						<li className='track-container' onClick={() => playTrack(index)}>
-							<img src={currentTrackCover} className='tracklist-cover'/>
+							<img src={track.cover} className='tracklist-cover'/>
 							<div className='tracklist-progress'></div>
 							<span className='tracklist-name'>{track.name}</span>
 						</li>
