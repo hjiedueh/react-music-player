@@ -1,0 +1,28 @@
+.prog-back {
+	position: relative;
+    height: 4px;
+    width: 200px;
+    background-color: #c9bbdc;
+    border-radius: 5px;
+}
+
+.point {
+	position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 10px;
+    height: 8px;
+    width: 8px;
+    background-color: #7364a9;
+    border-radius: 50%;
+}
+
+.progress {
+	position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 10px;
+    height: inherit;
+    background-color: #7364a9;
+    border-radius: 5px;
+}
